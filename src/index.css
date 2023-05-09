@@ -1,0 +1,50 @@
+.weather-card {
+    background-color: #1F2937;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #FFFFFF;
+    width: 20rem;
+    margin: 5rem auto 0;
+    padding: 1rem;
+  }
+  
+  .weather-card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .weather-card .card-header .city {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .weather-card .card-header .weather-description {
+    font-size: 0.875rem;
+  }
+  
+  .weather-card .card-content .temperature {
+    font-weight: 500;
+    font-size: 4rem;
+  }
+  
+  .weather-card .card-content .additional-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .weather-card .card-content .additional-info .info-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .weather-card .card-content .additional-info .info-item .info-label {
+    font-weight: 500;
+  }
+  
+  .weather-card .card-content .additional-info .info-item .info-value {
+    font-weight: 600;
+  }
+  
